@@ -32,4 +32,3 @@ window.onresize = window.onscroll = window.onload = function() {
     view.update(viewport, Math.max(0, -window.scrollY))
   })
 }
-;

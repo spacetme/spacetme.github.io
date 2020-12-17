@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <title>spacet.me Labs</title>
-<meta name="description" content="At spacet.me Labs, we play with cutting-edge HTML5 technologies. Check out our experiments.">
-<meta property="og:description" content="At spacet.me Labs, we play with cutting-edge HTML5 technologies. Check out our experiments.">
-<link href="/stylesheets/css.css" rel="stylesheet" type="text/css" />
+<meta name="description" content="spacet.me Labs is @dtinth's playground with Web APIs.">
+<meta property="og:description" content="spacet.me Labs is @dtinth's playground with Web APIs.">
+<link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+<link href="/stylesheets/css.css" rel="stylesheet" />
 <meta name="viewport" content="initial-scale=1">
 <body>
 
@@ -23,7 +24,8 @@
 <div class="perspective">
   <div class="box">
     <p class="tagline">
-      At spacet<span class="the-dot">.</span>me Labs, we play with cutting-edge HTML5 technologies. Check out our experiments.
+      spacet<span class="the-dot">.</span>me Labs is <span style="color: #8b8685">@</span><a style="color: #d7fc70; text-decoration: none" href="https://dt.in.th">dtinth</a>'s playground
+      showcasing many small experiments using Web APIs.
     </p>
   </div>
 </div>
@@ -32,19 +34,120 @@
 <div class="perspective">
   <div class="box">
     <div class="experiment">
-        <h2><a href="https://spacet.me/hymn">Carols in Harmony</a></h2>
-      <p>Just in time for Christmas.
-Practice singing popular Christmas hymns in 4-part harmony using this web application.
-It listens to your sound from the microphone and shows you whether you sang the correct note.
-Works with Google Chrome and Firefox on desktop browsers.
+        <h2><a href="https://1hz.spacet.me/">1hz.spacet.me</a></h2>
+      <p>Your computer speakers making buzzing sound? This little tool plays a quiet 1hz sine wave.
+It is inaudible to human ear but may stop your speakers from picking up the mains hum.
 </p>
       <ul class="items">
           <li><a href="https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html">Web Audio API</a></li>
-          <li><a href="http://jspm.io/">jspm.io</a></li>
-          <li><a href="http://facebook.github.io/react/">React</a></li>
-          <li><a href="http://www.2ality.com/2014/08/es6-today.html">ES6</a></li>
-          <li><a href="https://github.com/spacetme/hymn">&rarr; GitHub</a></li>
-          <li class="date">Released: 2014-12-23</li>
+          <li><a href="https://github.com/dtinth/1hz">&rarr; GitHub</a></li>
+          <li class="date">Released: 2020-12-14</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<div class="perspective">
+  <div class="box">
+    <div class="experiment">
+        <h2><a href="https://capture.the.spacet.me/">capture.the.spacet.me</a></h2>
+      <p>A personal web page screenshotting service.
+It exposes an API that I can use to generate screenshots of web pages.
+By personal I mean only I can use it.
+But it is open source, and you can run your own instance.
+</p>
+      <ul class="items">
+          <li><a href="https://pptr.dev/">Puppeteer</a></li>
+          <li><a href="https://vercel.com/">Vercel</a></li>
+          <li><a href="https://github.com/dtinth/personal-puppeteer">&rarr; GitHub</a></li>
+          <li class="date">Released: 2020-11-04</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<div class="perspective">
+  <div class="box">
+    <div class="experiment">
+        <h2><a href="https://img.spacet.me/">img.spacet.me</a></h2>
+      <p>Y’know, it’s 2020 and some services still don’t let you upload images, instead asking for an image URL.
+This little web application lets you upload a file to Google Drive.
+Once uploaded, the sharing settings will automatially be changed to “Anyone with the link can view,”
+and a direct URL to the file is generated for you, ready for copying.
+</p>
+      <ul class="items">
+          <li><a href="https://github.com/google/google-api-javascript-client">Google APIs</a></li>
+          <li><a href="https://github.com/dtinth/img">&rarr; GitHub</a></li>
+          <li class="date">Released: 2020-04-08</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<div class="perspective">
+  <div class="box">
+    <div class="experiment">
+        <h2><a href="https://tailwind.spacet.me/">tailwind.spacet.me</a></h2>
+      <p>Having trouble memorizing all the utility classes in Tailwind?
+Remembered the CSS code, but did not remember which is the corresponding Tailwind CSS utility class?
+Search for it here!
+</p>
+      <ul class="items">
+          <li><a href="https://vuejs.org/">Vue.js</a></li>
+          <li><a href="https://github.com/dtinth/tailwind-search">&rarr; GitHub</a></li>
+          <li class="date">Released: 2020-04-05</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<div class="perspective">
+  <div class="box">
+    <div class="experiment">
+        <h2><a href="https://vox.spacet.me/">vox.spacet.me</a></h2>
+      <p>A simple web-based voice recorder. This web app lets you record your voice and save it as an WAV file.
+</p>
+      <ul class="items">
+          <li><a href="https://webrtc.org/">WebRTC</a></li>
+          <li><a href="https://github.com/dtinth/voice-recorder">&rarr; GitHub</a></li>
+          <li class="date">Released: 2020-01-18</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<div class="perspective">
+  <div class="box">
+    <div class="experiment">
+        <h2><a href="https://json.spacet.me/">json.spacet.me</a></h2>
+      <p>Dead simple JSON viewer
+</p>
+      <ul class="items">
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API">Web Clipboard API</a></li>
+          <li><a href="https://github.com/dtinth/jsonviewer">&rarr; GitHub</a></li>
+          <li class="date">Released: 2019-08-13</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<div class="perspective">
+  <div class="box">
+    <div class="experiment">
+        <h2><a href="https://midi-rtc.spacet.me/">midi-rtc.spacet.me</a></h2>
+      <p>Send and receive MIDI messages over WebRTC, powered by PeerJS.
+</p>
+      <ul class="items">
+          <li><a href="https://webrtc.org/">WebRTC</a></li>
+          <li><a href="https://www.w3.org/TR/webmidi/">Web MIDI API</a></li>
+          <li><a href="https://github.com/dtinth/midi-rtc">&rarr; GitHub</a></li>
+          <li class="date">Released: 2019-07-19</li>
       </ul>
     </div>
   </div>
@@ -62,6 +165,7 @@ the Romance of the Three Kingdoms (I've never read it, by the way).
 </p>
       <ul class="items">
           <li><a href="http://www.w3.org/TR/workers/">Web Workers</a></li>
+          <li><a href="https://github.com/spacetme/random">&rarr; GitHub</a></li>
           <li class="date">Released: 2014-11-14</li>
       </ul>
     </div>
@@ -72,12 +176,30 @@ the Romance of the Three Kingdoms (I've never read it, by the way).
 <div class="perspective">
   <div class="box">
     <div class="experiment">
-        <h2><a href="https://notes.divshot.io/">notes.spacet.me</a></h2>
-      <p>An HTML 5 note taking application that saves to Dropbox.
+        <h2><a href="https://bpm.spacet.me/">bpm.spacet.me</a></h2>
+      <p>A simple web app to find out the tempo of a song (in BPM, beats-per-minute) by tapping to the beat.
 </p>
       <ul class="items">
-          <li><a href="https://github.com/spacetme/notes">&rarr; GitHub</a></li>
-          <li class="date">Released: 2014-05-22</li>
+          <li><a href="https://github.com/dtinth/bpm">&rarr; GitHub</a></li>
+          <li class="date">Released: 2014-06-07</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<div class="perspective">
+  <div class="box">
+    <div class="experiment">
+        <h2><a href="https://highlight.spacet.me/">highlight.spacet.me</a></h2>
+      <p>A quick and dirty tool that lets me add syntax-highlighted code to Google Docs.
+Paste in your code, select a language and color theme, and copy out the highlighted code.
+The copied data can be pasted into Google Docs.
+</p>
+      <ul class="items">
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API">Web Clipboard API</a></li>
+          <li><a href="https://github.com/spacetme/highlight">&rarr; GitHub</a></li>
+          <li class="date">Released: 2014-06-02</li>
       </ul>
     </div>
   </div>
@@ -120,40 +242,7 @@ by adding drum beats and a synthesized bassline.
 </div>
 
 
-<div class="perspective">
-  <div class="box">
-    <div class="experiment">
-        <h2><a href="https://sign.spacet.me/">Flashing Sign</a></h2>
-      <p>When you want attention from the crowd, use a flashing sign.
-This utility will display a big, flashing sign on your screen.
-Everyone will notice it.
-</p>
-      <ul class="items">
-          <li><a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/offline.html">Offline Web App</a></li>
-          <li><a href="https://github.com/spacetme/sign">&rarr; GitHub</a></li>
-          <li class="date">Released: 2014-02-10</li>
-      </ul>
-    </div>
-  </div>
-</div>
-
-
-<div class="perspective">
-  <div class="box">
-    <div class="experiment">
-        <h2>BEAT☆MUSIC☆<wbr>SEQUENCE <small>(coming soon)</small></h2>
-      <p>A web-based rhythm game, a BMS simulator, with full support for keysounds.
-Playable both in desktop and mobile browsers.
-</p>
-      <ul class="items">
-          <li><a href="https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html">Web Audio API</a></li>
-      </ul>
-    </div>
-  </div>
-</div>
-
-
-<div class="perspective">
+<!-- div class="perspective">
   <div class="box">
     <div class="about">
       <h2>About</h2>
@@ -162,7 +251,7 @@ Playable both in desktop and mobile browsers.
       It contains one member, <a href="http://dt.in.th/">Thai Pangsakulyanont</a>.</p>
     </div>
   </div>
-</div>
+</div -->
 
 </div>
 
@@ -171,7 +260,7 @@ Playable both in desktop and mobile browsers.
 </div>
 </div>
 
-<script src="/javascripts/perspective.js" type="text/javascript"></script>
+<script src="/javascripts/perspective.js"></script>
 
 </body>
 

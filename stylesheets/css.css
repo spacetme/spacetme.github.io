@@ -1,66 +1,54 @@
-/* line 1, /Users/dtinth/Projects/spacet.me/source/stylesheets/css.css.scss */
 body {
   background: #353433;
   overflow-x: hidden;
   color: #e9e8e7;
-  font: 15px Verdana, sans-serif;
+  font: 15px Arimo, Helvetica, Verdana, sans-serif;
   margin: 0;
   padding: 0;
   line-height: 1.8; }
 
-/* line 10, /Users/dtinth/Projects/spacet.me/source/stylesheets/css.css.scss */
 a {
   color: #ffffbb; }
 
-/* line 13, /Users/dtinth/Projects/spacet.me/source/stylesheets/css.css.scss */
 a:hover,
 a:focus {
   color: #ffff6f;
   text-decoration: underline; }
 
-/* line 18, /Users/dtinth/Projects/spacet.me/source/stylesheets/css.css.scss */
 a:focus {
   outline: thin dotted #333;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px; }
 
-/* line 24, /Users/dtinth/Projects/spacet.me/source/stylesheets/css.css.scss */
 .the-dot {
   position: relative;
   top: -1.15ex; }
 
-/* line 29, /Users/dtinth/Projects/spacet.me/source/stylesheets/css.css.scss */
 #deoverflower {
   overflow: hidden; }
 
-/* line 33, /Users/dtinth/Projects/spacet.me/source/stylesheets/css.css.scss */
 .spacer {
   height: 200px; }
 
-/* line 37, /Users/dtinth/Projects/spacet.me/source/stylesheets/css.css.scss */
 .tagline {
   font-size: 24px; }
 
-/* line 41, /Users/dtinth/Projects/spacet.me/source/stylesheets/css.css.scss */
 .container {
   margin: 0 auto;
   max-width: 720px;
   padding: 0 32px; }
 
-/* line 47, /Users/dtinth/Projects/spacet.me/source/stylesheets/css.css.scss */
 h1 {
-  font: bold 72px Helvetica Neue, Helvetica, Arial;
+  font: bold 72px Arimo, Helvetica, Helvetica Neue, Helvetica, Arial;
   color: #8b8685;
   text-align: center; }
 
-/* line 53, /Users/dtinth/Projects/spacet.me/source/stylesheets/css.css.scss */
 .perspective {
   perspective: 500px;
   perspective-origin: 50% 50%;
   -webkit-perspective: 500px;
   -webkit-perspective-origin: 50% 50%; }
 
-/* line 60, /Users/dtinth/Projects/spacet.me/source/stylesheets/css.css.scss */
 .experiment {
   margin-bottom: 1em;
   background: #252423;
@@ -68,31 +56,25 @@ h1 {
   padding: 16px;
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(139, 134, 133, 0.5); }
-  /* line 67, /Users/dtinth/Projects/spacet.me/source/stylesheets/css.css.scss */
   .experiment h2 {
     color: #789199;
     line-height: 1.5;
     margin: 0.2em 0 0.5em; }
-    /* line 70, /Users/dtinth/Projects/spacet.me/source/stylesheets/css.css.scss */
     .experiment h2 a {
       color: #bef; }
-    /* line 72, /Users/dtinth/Projects/spacet.me/source/stylesheets/css.css.scss */
     .experiment h2 small {
       color: #8b8685;
       font-size: 14px;
       font-weight: normal; }
 
-/* line 80, /Users/dtinth/Projects/spacet.me/source/stylesheets/css.css.scss */
 .items {
   margin: 0;
   padding: 0;
   display: block;
   font-size: 11px;
   color: #8b8685; }
-  /* line 86, /Users/dtinth/Projects/spacet.me/source/stylesheets/css.css.scss */
   .items li {
     display: inline-block; }
-    /* line 88, /Users/dtinth/Projects/spacet.me/source/stylesheets/css.css.scss */
     .items li a {
       background: #353433;
       box-shadow: 0 1px 0 #090807;
@@ -102,18 +84,17 @@ h1 {
       text-decoration: none; }
 
 @media (max-height: 500px) {
-  /* line 100, /Users/dtinth/Projects/spacet.me/source/stylesheets/css.css.scss */
   .spacer {
     height: 150px; } }
+
 @media (max-width: 500px) {
-  /* line 105, /Users/dtinth/Projects/spacet.me/source/stylesheets/css.css.scss */
   h1 {
     font-size: 36px; } }
-/* line 111, /Users/dtinth/Projects/spacet.me/source/stylesheets/css.css.scss */
+
 .about h2 {
   color: #d7fc70;
   font-size: 21px;
   text-shadow: 2px 2px rgba(215, 252, 112, 0.15); }
-/* line 116, /Users/dtinth/Projects/spacet.me/source/stylesheets/css.css.scss */
+
 .about p {
   line-height: 1.8; }
